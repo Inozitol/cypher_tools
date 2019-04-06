@@ -1,6 +1,6 @@
 #include "template.h"
 
-class Caesar : public Template{
+class Caesar : virtual public Template{
 	public:
 		void encrypt(std::string, int);
 };
